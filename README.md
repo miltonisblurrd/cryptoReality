@@ -1,40 +1,72 @@
-# Welcome to Remix!
+# What's My Crypto Worth? 💰
 
-- 📖 [Remix docs](https://remix.run/docs)
+A fun and interactive web app that shows you what real-world items you can buy with your cryptocurrency holdings!
 
-## Development
+## Features
 
-Run the dev server:
+- **Live Crypto Prices**: Fetches real-time cryptocurrency prices from the CoinGecko API
+- **Multiple Cryptocurrencies**: Support for Bitcoin, Ethereum, BNB, Solana, Cardano, and more
+- **Categorized Items**: Browse items across Tech, Food, Travel, Luxury, and Entertainment categories
+- **Real-time Calculations**: See what you can afford as you type
+- **Responsive Design**: Works great on desktop and mobile devices
+- **Playful UI**: Emojis and visual elements make exploring fun
 
-```sh
+## How It Works
+
+1. **Select a cryptocurrency** (e.g., Bitcoin, Ethereum)
+2. **Enter the amount** you own (e.g., 0.5 BTC)
+3. **Choose a category** (optional) to filter results
+4. **See what you can buy** with current market prices!
+
+## Example Items
+
+- 🍔 **Food**: Chipotle bowls, Starbucks coffee, pizza slices
+- 💻 **Tech**: iPhones, MacBooks, gaming PCs, consoles
+- ✈️ **Travel**: Flights, hotels, train tickets, cruises
+- 💎 **Luxury**: Tesla cars, Rolex watches, designer items
+- 🎭 **Entertainment**: Movie tickets, concerts, streaming services
+
+## Tech Stack
+
+- **Remix.js** - Full-stack React framework
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **CoinGecko API** - Live cryptocurrency prices
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-## Deployment
-
-First, build your app for production:
-
-```sh
+# Build for production
 npm run build
-```
 
-Then run the app in production mode:
-
-```sh
+# Start production server
 npm start
 ```
 
-Now you'll need to pick a host to deploy it to.
+## Development
 
-### DIY
+```bash
+# Type checking
+npm run typecheck
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+# Linting
+npm run lint
+```
 
-Make sure to deploy the output of `npm run build`
+## API
 
-- `build/server`
-- `build/client`
+The app uses the [CoinGecko API](https://www.coingecko.com/en/api) to fetch live cryptocurrency prices. No API key required for basic usage.
 
-## Styling
+## Contributing
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Feel free to add more cryptocurrencies, items, or categories! All data is stored in TypeScript files for easy modification.
+
+---
+
+Built with ❤️ using Remix.js
