@@ -6,12 +6,12 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
+    "start": "netlify serve",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/netlify": "^1.19.3",
+    "@remix-run/netlify": "^2.8.1",
     "@remix-run/node": "*",
     "@remix-run/react": "*",
     "@remix-run/serve": "*",
@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@netlify/remix-adapter": "^1.0.0",
     "@remix-run/dev": "*",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
