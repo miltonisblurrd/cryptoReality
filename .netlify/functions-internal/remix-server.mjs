@@ -1,5 +1,5 @@
 
-    export { default } from "../../build/server/server.js";
+    export { default } from "../../build/server/index.js";
 
     export const config = {
       name: "Remix server handler",
