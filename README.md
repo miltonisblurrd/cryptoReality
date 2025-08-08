@@ -72,3 +72,4 @@ Feel free to add more cryptocurrencies, items, or categories! All data is stored
 Built with ❤️ using Remix.js
 # Updated Thu Aug  7 18:00:00 PDT 2025
 # Fixed Netlify Functions Fri Aug  8 08:43:47 PDT 2025
+# Cache busting deployment 1754673437
